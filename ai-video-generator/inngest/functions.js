@@ -10,7 +10,7 @@ import { FieldValue } from "firebase-admin/firestore"; // Import FieldValue for 
 // Ensure Google Cloud credentials are set up
 setupGoogleCloudCredentials();
 
-const GEMINI_MODEL = "gemini-1.5-flash";
+const GEMINI_MODEL = "gemini-2.5-flash-preview-05-20";
 const IMAGEN_MODEL = "imagen-3.0-generate-002";
 
 function getGoogleVoice(voiceName) {
